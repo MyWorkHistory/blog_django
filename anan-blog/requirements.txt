@@ -1,0 +1,13 @@
+Django
+gunicorn
+psycopg2
+pytz
+whitenoise
+pillow
+social-auth-app-django
+django-summernote
+psycopg2-binary
+django-ckeditor 
+django-constance[database]
+django-analytical
+borb

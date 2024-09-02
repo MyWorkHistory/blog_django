@@ -1,0 +1,71 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+   p{
+      color: #fff !important;
+   }
+
+   p a{
+      font-weight: 600 !important;
+   }
+
+   .comment-img{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+   }
+
+   .comment-red{
+      border-color: #fd0000;
+   }
+</style>
+
+{% csrf_token %}
+
+<div class="container">
+    <div class="page-title-wrap">
+       <h2 class="page-title">About</h2>
+    </div><!-- .page-title-wrap -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="home">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">About</li>
+      </ol>
+    </nav><!-- .breadcrumb -->
+    
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos odio perferendis temporibus doloremque harum. Unde atque earum vel nihil nulla blanditiis, debitis rem incidunt corrupti aliquam dolor doloremque nisi exercitationem?
+    </p>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos odio perferendis temporibus doloremque harum. Unde atque earum vel nihil nulla blanditiis, debitis rem incidunt corrupti aliquam dolor doloremque nisi exercitationem?
+    </p>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos odio perferendis temporibus doloremque harum. Unde atque earum vel nihil nulla blanditiis, debitis rem incidunt corrupti aliquam dolor doloremque nisi exercitationem?
+    </p>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos odio perferendis temporibus doloremque harum. Unde atque earum vel nihil nulla blanditiis, debitis rem incidunt corrupti aliquam dolor doloremque nisi exercitationem?
+    </p>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos odio perferendis temporibus doloremque harum. Unde atque earum vel nihil nulla blanditiis, debitis rem incidunt corrupti aliquam dolor doloremque nisi exercitationem?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos odio perferendis temporibus doloremque harum. Unde atque earum vel nihil nulla blanditiis, debitis rem incidunt corrupti aliquam dolor doloremque nisi exercitationem?
+    </p>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos odio perferendis temporibus doloremque harum. Unde atque earum vel nihil nulla blanditiis, debitis rem incidunt corrupti aliquam dolor doloremque nisi exercitationem?
+    </p>
+
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos odio perferendis temporibus doloremque harum. Unde atque earum vel nihil nulla blanditiis, debitis rem incidunt corrupti aliquam dolor doloremque nisi exercitationem?
+    </p>
+
+ </div><!-- .container -->
+
+ <input type="hidden" id="loggedin" value="{{loggedin}}">
+
+{% endblock %}
